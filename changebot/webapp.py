@@ -8,7 +8,7 @@ from changebot.blueprints.stale_issues import stale_issues
 from changebot.blueprints.stale_pull_requests import stale_pull_requests
 from changebot.blueprints.pull_request_checker import pull_request_checker
 
-app = Flask('astropy-bot')
+app = Flask('lim-bot')
 
 app.wsgi_app = ProxyFix(app.wsgi_app)
 
